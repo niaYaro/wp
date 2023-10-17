@@ -1,5 +1,6 @@
 .gamesList {
     padding-left: 0;
+    padding: 0 92px;
     margin-top: 36px;
     list-style: none;
     display: grid;

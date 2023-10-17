@@ -19,12 +19,12 @@ const mockedData = [
 
 const HowToStart = () => {
   return (
-    <>
+    <div className={styles['howToStartContainer']}>
       <h2 className={styles['subtitle']}>
           How to start in free casino
       </h2>
       <Blocks text={mockedData} />
-    </>
+    </div>
   );
 }
 

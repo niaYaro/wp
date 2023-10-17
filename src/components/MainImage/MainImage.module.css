@@ -8,6 +8,7 @@
     height: 100%;
     background-color: red;
     z-index: -10;
+    background: linear-gradient(180deg, red 65.33%, #bebebe00 99.29%);
 }
 
 .blue {
@@ -15,6 +16,7 @@
     width: 50%;
     height: 100%;
     background-color: blue;
+    background: linear-gradient(180deg, blue 65.33%, #bebebe00 99.29%);
     left: 50%;
     z-index: -10;
 }
@@ -28,7 +30,7 @@
 }
 
 .mainImage {
-    width: 90%;
+    min-width: 1200px;
     border-radius: 16px;
 
 }

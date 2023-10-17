@@ -1,11 +1,11 @@
 .blocksList {
-    padding: 0 60px;
-    margin: 36px 0 0;
+    padding: 0 92px;
+    margin: 36px 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* display: flex; */
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex;
+    justify-content: space-between;  
+    align-items: center; */
     list-style: none;
     gap: 36px;
 }

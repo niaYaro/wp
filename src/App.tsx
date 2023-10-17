@@ -7,18 +7,21 @@ import HowToStart from './components/HowToStart/HowToStart';
 import Footer from './components/Footer/Footer';
 import GamesList from './components/GamesList/GamesList';
 import Disclaimer from './components/Disclaimer/Disclaimer';
+import SiteData from './components/SiteData/SiteData';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <>
+    <Layout>
       <Header />
       <MainImage />
       <MainTitle />
       <HowToStart />
       <GamesList />
       <Disclaimer />
+      <SiteData />
       <Footer />
-    </>
+    </Layout>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

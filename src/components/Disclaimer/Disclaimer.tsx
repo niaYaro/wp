@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../Disclaimer/Disclaimer.module.css'
 import Blocks from '../Block/Block';
 
 const mockedData = [

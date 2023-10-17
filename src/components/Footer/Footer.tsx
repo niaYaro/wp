@@ -11,8 +11,12 @@ const Footer = () => {
             </p>
         </div>
         <ul className={styles['termsPolicy']}>
-            <li>Terms</li>
-            <li>Policy</li>
+            <li className={styles['termsPolicyItem']}>
+                <a className={styles['termsPolicyLink']} href="">Terms</a>
+            </li>
+            <li className={styles['termsPolicyItem']}>
+                <a className={styles['termsPolicyLink']} href="">Policy</a>
+            </li>
         </ul>
     </div>
   );
