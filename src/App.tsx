@@ -5,6 +5,8 @@ import Header from './components/Header/Header';
 import MainImage from './components/MainImage/MainImage';
 import MainTitle from './components/MainTitle/MainTitle';
 import HowToStart from './components/HowToStart/HowToStart';
+import Footer from './components/Footer/Footer';
+import GamesList from './components/GamesList/GamesList';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <MainImage />
       <MainTitle />
       <HowToStart />
+      <GamesList />
+      <Footer />
     </>
     // <div className="App">
     //   <header className="App-header">
