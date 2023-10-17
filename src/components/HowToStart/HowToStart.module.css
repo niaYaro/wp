@@ -1,0 +1,28 @@
+.subtitle {
+    text-align: center;
+}
+
+.list {
+    padding: 0 60px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 24px;
+    border: 2px solid rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
+    border-radius: 12px;
+}
+
+.listItemSubtext {
+    font-size: 14px;
+    font-weight: normal;
+}
