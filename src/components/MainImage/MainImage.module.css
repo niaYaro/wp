@@ -1,0 +1,11 @@
+.mainImageContainer {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImage {
+    border-radius: 10px;
+
+}
