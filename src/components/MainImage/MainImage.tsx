@@ -5,8 +5,12 @@ import CasinoChip from '../CasinoChip/CasinoChip';
 
 const MainImage = () => {
   return (
-    <div className={styles['mainImageContainer']}>
-      <img className={styles['mainImage']} src={image} alt="" />
+    <div className={styles['generalWrapper']}>
+      <div className={styles['red']}></div>
+      <div className={styles['blue']}></div>
+      <div  className={styles['mainImageContainer']}>
+        <img className={styles['mainImage']} src={image} alt="" />
+      </div>
     </div>
     );
 }
