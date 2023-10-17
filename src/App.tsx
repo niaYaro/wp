@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import MainImage from './components/MainImage/MainImage';
@@ -7,6 +6,7 @@ import MainTitle from './components/MainTitle/MainTitle';
 import HowToStart from './components/HowToStart/HowToStart';
 import Footer from './components/Footer/Footer';
 import GamesList from './components/GamesList/GamesList';
+import Disclaimer from './components/Disclaimer/Disclaimer';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <MainTitle />
       <HowToStart />
       <GamesList />
+      <Disclaimer />
       <Footer />
     </>
     // <div className="App">

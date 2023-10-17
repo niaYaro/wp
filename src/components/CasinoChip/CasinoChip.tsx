@@ -1,5 +1,4 @@
 import React from 'react';
-import chip from '../../img/video_preview_0001.jpg'
 import styles from '../CasinoChip/CasinoChip.module.css'
 
 const CasinoChip = () => {

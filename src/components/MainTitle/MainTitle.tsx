@@ -1,7 +1,5 @@
 import React from 'react';
-import Logo from '../Logo/Logo';
 import styles from '../MainTitle/MainTitle.module.css'
-import CasinoChip from '../CasinoChip/CasinoChip';
 
 const MainTitle = () => {
   return (

@@ -1,7 +1,21 @@
 import React from 'react';
-import Logo from '../Logo/Logo';
 import styles from '../HowToStart/HowToStart.module.css'
-import CasinoChip from '../CasinoChip/CasinoChip';
+import Blocks from '../Block/Block';
+
+const mockedData = [
+    {
+        mainText: 'Register an account',
+        subText: '(Sign up easily and quickly)',
+    },
+    {
+        mainText: 'Choose a game',
+        subText: '(Select yot favorite social casino game)',
+    },
+    {
+        mainText: 'Enjoy the game',
+        subText: '(All games are free for use)',
+    }
+]
 
 const HowToStart = () => {
   return (
@@ -9,11 +23,7 @@ const HowToStart = () => {
       <h2 className={styles['subtitle']}>
           How to start in free casino
       </h2>
-      <ul className={styles['list']}>
-        <li className={styles['listItem']}>Register an account<p className={styles['listItemSubtext']}>(Sign up easily and quickly)</p></li>
-        <li className={styles['listItem']}>Choose a game <p className={styles['listItemSubtext']}>(Select yot favorite social casino game)</p></li>
-        <li className={styles['listItem']}>Enjoy the game <p className={styles['listItemSubtext']}>(All games are free for use)</p></li>
-      </ul>
+      <Blocks text={mockedData} />
     </>
   );
 }
