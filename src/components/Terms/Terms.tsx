@@ -1,6 +1,4 @@
 import React from 'react';
-import styles from '../Terms/Terms.module.scss'
-import Logo from '../Logo/Logo';
 import SimplePage from '../SimplePage/SimplePage';
 
 const Terms = () => {
