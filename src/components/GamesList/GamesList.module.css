@@ -1,0 +1,71 @@
+.gamesList {
+    padding-left: 0;
+    padding: 0 92px;
+    margin-top: 36px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gamesListItem {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.gamePic {
+    min-width: 300px;
+    min-height: 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+.scarletGame {
+    background-image: url(../../img/Scatter-Slots.jpg);
+}
+
+.loveGame {
+    background-image: url(../../img/Love-Slots-Casino\ .jpg);
+}
+
+.jackpotFriendsGame {
+    background-image: url(../../img/Jackpot-Friends.jpg);
+}
+
+.infinitySlotsGame {
+    background-image: url(../../img/Infinity-Slots.png);
+}
+
+.houseSlotsGame {
+    background-image: url(../../img/House-of-Slots.png);
+}
+
+.socialCasinoGame {
+    background-image: url(../../img/Social-Casino-Slots-Vegas.png);
+}
+
+.gameImg {
+    max-width: 300px;
+    /* max-height: 165px; */
+}
+
+.gameLink {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: red;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    padding: 12px 20px;
+
+}
+
+.gameLink:hover {
+    background-color: rgb(196, 1, 1);
+    /* border: 2px solid red; */
+    
+}
