@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className={styles['footer']}>
+    <footer className={styles['footer']}>
         <div className={styles['aboutUs']}>
             <h3>About us</h3>
             <p>
@@ -19,7 +19,7 @@ const Footer = () => {
                 <Link className={styles['termsPolicyLink']} to="policy">Policy</Link>
             </li>
         </ul>
-    </div>
+    </footer>
   );
 }
 

@@ -11,14 +11,14 @@ import Footer from '../Footer/Footer';
 const Home = () => {
   return (
     <>
-        <Header />
+        {/* <Header /> */}
         <MainImage />
         <MainTitle />
         <HowToStart />
         <GamesList />
         <Disclaimer />
         <SiteData />
-        <Footer />
+        {/* <Footer /> */}
     </>
   );
 }
