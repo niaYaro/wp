@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../Home/Home.module.scss'
 import Header from '../Header/Header';
 import MainImage from '../MainImage/MainImage';
 import MainTitle from '../MainTitle/MainTitle';
