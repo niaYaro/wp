@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Block/Block.module.css'
+import styles from '../Block/Block.module.scss'
 
 interface BlocksText {
     mainText: string,

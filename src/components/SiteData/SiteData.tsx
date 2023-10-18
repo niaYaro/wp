@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../SiteData/SiteData.module.css'
+import styles from '../SiteData/SiteData.module.scss'
 import Logo from '../Logo/Logo';
 
 const SiteData = () => {

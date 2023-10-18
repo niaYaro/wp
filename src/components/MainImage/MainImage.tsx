@@ -1,6 +1,6 @@
 import React from 'react';
 import image from '../../img/700x400_5.jpg';
-import styles from '../MainImage/MainImage.module.css'
+import styles from '../MainImage/MainImage.module.scss'
 
 const MainImage = () => {
   return (

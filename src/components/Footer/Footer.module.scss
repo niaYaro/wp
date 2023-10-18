@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.footer {
+    padding: 0 24px;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 5.33%, #f7ec15 99.29%);
+    display: flex;
+    flex-direction: column;
+    
+    @media screen and (min-width: $breakpoint-desktop) {
+        grid-template-columns: 2fr 1fr;
+        display: grid;
+    }
+}
+
+.aboutUs {
+    text-align: center;
+    @media screen and (min-width: $breakpoint-desktop) {
+        text-align: start;
+    }
+}
+
+.termsPolicy {
+    padding: 0 16px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.termsPolicyItem {
+    font-size: 18px;
+    font-weight: bold;
+}
+.termsPolicyLink {
+    color: black;
+    text-decoration: none;
+}

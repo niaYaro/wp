@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../GamesList/GamesList.module.css'
+import styles from '../GamesList/GamesList.module.scss'
 
 const GamesList = () => {
   return (
