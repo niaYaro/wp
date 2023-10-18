@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wp/static/css/main.3b08d58a.css",
-    "main.js": "/wp/static/js/main.70ab6164.js",
+    "main.css": "/wp/static/css/main.a741c343.css",
+    "main.js": "/wp/static/js/main.6c959ccc.js",
     "static/js/787.67193214.chunk.js": "/wp/static/js/787.67193214.chunk.js",
     "static/media/Infinity-Slots.png": "/wp/static/media/Infinity-Slots.363257f209129445059a.png",
     "static/media/House-of-Slots.png": "/wp/static/media/House-of-Slots.34095b7e209929b17ece.png",
@@ -13,12 +13,12 @@
     "static/media/video_preview_0001.jpg": "/wp/static/media/video_preview_0001.a2a0ab64818cdf4b927f.jpg",
     "static/media/Wonder-play-13-10-2023.png": "/wp/static/media/Wonder-play-13-10-2023.7ddb9e492314df5ad0b2.png",
     "index.html": "/wp/index.html",
-    "main.3b08d58a.css.map": "/wp/static/css/main.3b08d58a.css.map",
-    "main.70ab6164.js.map": "/wp/static/js/main.70ab6164.js.map",
+    "main.a741c343.css.map": "/wp/static/css/main.a741c343.css.map",
+    "main.6c959ccc.js.map": "/wp/static/js/main.6c959ccc.js.map",
     "787.67193214.chunk.js.map": "/wp/static/js/787.67193214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b08d58a.css",
-    "static/js/main.70ab6164.js"
+    "static/css/main.a741c343.css",
+    "static/js/main.6c959ccc.js"
   ]
 }
