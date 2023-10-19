@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
+    min-width: 0;
 }
 
 .gamePic {
@@ -60,10 +61,6 @@
 
 .socialCasinoGame {
     background-image: url(../../img/Social-Casino-Slots-Vegas.png);
-}
-
-.gameImg {
-    max-width: 300px;
 }
 
 .gameLink {
