@@ -1,29 +1,29 @@
 import React from 'react';
-import styles from '../HowToStart/HowToStart.module.css'
+import styles from '../HowToStart/HowToStart.module.scss'
 import Blocks from '../Block/Block';
 
-const mockedData = [
+const blockContent = [
     {
         mainText: 'Register an account',
-        subText: '(Sign up easily and quickly)',
+        subText: 'Sign up easily and quickly',
     },
     {
         mainText: 'Choose a game',
-        subText: '(Select yot favorite social casino game)',
+        subText: 'Select yot favorite social casino game',
     },
     {
         mainText: 'Enjoy the game',
-        subText: '(All games are free for use)',
+        subText: 'All games are free for use',
     }
 ]
 
-const HowToStart = () => {
+const HowToStart: React.FC = () => {
   return (
     <div className={styles['howToStartContainer']}>
       <h2 className={styles['subtitle']}>
           How to start in free casino
       </h2>
-      <Blocks text={mockedData} />
+      <Blocks text={blockContent} />
     </div>
   );
 }

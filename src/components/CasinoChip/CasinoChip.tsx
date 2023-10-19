@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../CasinoChip/CasinoChip.module.css'
+import styles from '../CasinoChip/CasinoChip.module.scss'
 
-const CasinoChip = () => {
+const CasinoChip: React.FC = () => {
   return (
     <div className={styles['chip']}>
         <div className={styles['gradient']}></div>

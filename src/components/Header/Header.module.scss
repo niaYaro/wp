@@ -5,12 +5,4 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: black;
-
-    
-    
-    @media screen and (min-width: $breakpoint-tablet) {
-    }
-
-    @media screen and (min-width: $breakpoint-desktop) {
-    }
 }

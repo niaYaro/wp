@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../GamesList/GamesList.module.scss'
 
-const GamesList = () => {
+const GamesList: React.FC = () => {
   return (
     <ul className={styles['gamesList']}>
         <li className={styles['gamesListItem']}>

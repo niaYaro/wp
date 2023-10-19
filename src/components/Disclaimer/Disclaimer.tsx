@@ -1,7 +1,7 @@
 import React from 'react';
 import Blocks from '../Block/Block';
 
-const mockedData = [
+const blockContent = [
     {
         mainText: 'Our games are not for real money and are completely safe',
     },
@@ -13,9 +13,9 @@ const mockedData = [
     }
 ]
 
-const Disclaimer = () => {
+const Disclaimer: React.FC = () => {
   return (
-    <Blocks text={mockedData} />
+    <Blocks text={blockContent} />
   );
 }
 

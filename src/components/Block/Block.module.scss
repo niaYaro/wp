@@ -5,24 +5,16 @@
     margin: 36px 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    /* display: flex;
-    justify-content: space-between;  
-    align-items: center; */
     list-style: none;
     gap: 36px;
 
     @media screen and (min-width: $breakpoint-tablet) {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-    @media screen and (min-width: $breakpoint-desktop) {
-    }
-
 }
 
 .blocksListItem {
     box-sizing: border-box;
-    /* max-width: 300px; */
     margin: 0;
     font-size: 24px;
     font-weight: bold;
