@@ -2,9 +2,5 @@
 
 .simplePageWrapper {
     padding: 0 24px;
-    text-align: center;
-    
-    @media screen and (min-width: $breakpoint-desktop)  {
-        text-align: start;
-    }
+    text-align: start;
 }
