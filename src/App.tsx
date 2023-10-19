@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import Terms from './components/Terms/Terms';
 import Policy from './components/Policy/Policy';
-import Footer from './components/Footer/Footer';
 import Layout from './components/Layout/Layout';
 
 function App() {
