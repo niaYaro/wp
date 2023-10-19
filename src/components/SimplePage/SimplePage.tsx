@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useEffect } from 'react';
 import styles from '../SimplePage/SimplePage.module.scss'
 
 interface PageContent {
@@ -8,6 +8,13 @@ interface PageContent {
 }
 
 const SimplePage: React.FC<PageContent>  = ({ title, update, children }) => {
+    useEffect(() => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth',
+          });
+    }, [])
   return (
     <div className={styles['simplePageWrapper']}>
         <h2>{title}</h2>
