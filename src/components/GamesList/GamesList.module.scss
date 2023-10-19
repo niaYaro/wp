@@ -77,4 +77,10 @@
         background-color: $button-background-color-hover;
        
     }
+    &:active {
+        background-color: $button-text-color;
+        color: $button-background-color;
+        border: 1px solid $button-background-color;
+       
+    }
 }
