@@ -8,7 +8,7 @@ const MainImage: React.FC = () => {
       <div className={styles['red']}></div>
       <div className={styles['blue']}></div>
       <div  className={styles['mainImageContainer']}>
-        <img className={styles['mainImage']} src={image} alt="" />
+        <img className={styles['mainImage']} src={image} alt="Social casino" />
       </div>
     </div>
     );

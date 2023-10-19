@@ -19,7 +19,7 @@ const blockContent = [
 
 const HowToStart: React.FC = () => {
   return (
-    <div className={styles['howToStartContainer']}>
+    <div>
       <h2 className={styles['subtitle']}>
           How to start in free casino
       </h2>

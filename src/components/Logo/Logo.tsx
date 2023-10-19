@@ -4,8 +4,8 @@ import styles from '../Logo/Logo.module.scss'
 
 const Logo: React.FC = () => {
   return (
-    <div className={styles['logoContainer']}>
-      <img className={styles['logo']} src={logo} alt="" />
+    <div>
+      <img className={styles['logo']} src={logo} alt="Logo" />
     </div>
   );
 }

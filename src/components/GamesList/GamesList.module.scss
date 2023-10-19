@@ -64,17 +64,17 @@
 }
 
 .gameLink {
-    color: antiquewhite;
+    color: $button-text-color;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: red;
+    background-color: $button-background-color;
     border-radius: 10px;
     padding: 12px 20px;
     transition: background-color, ease, 0.3s;
 
     &:hover {
-        background-color: rgb(196, 1, 1);
+        background-color: $button-background-color-hover;
        
     }
 }
