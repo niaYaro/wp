@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../SiteData/SiteData.module.scss'
 import Logo from '../Logo/Logo';
 
-const SiteData = () => {
+const SiteData: React.FC = () => {
   return (
     <div className={styles['siteData']}>
         <Logo />

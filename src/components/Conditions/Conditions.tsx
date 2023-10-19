@@ -13,10 +13,10 @@ const blockContent = [
     }
 ]
 
-const Disclaimer: React.FC = () => {
+const Conditions: React.FC = () => {
   return (
     <Blocks text={blockContent} />
   );
 }
 
-export default Disclaimer;
+export default Conditions;

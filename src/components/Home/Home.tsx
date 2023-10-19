@@ -3,7 +3,7 @@ import MainImage from '../MainImage/MainImage';
 import MainTitle from '../MainTitle/MainTitle';
 import HowToStart from '../HowToStart/HowToStart';
 import GamesList from '../GamesList/GamesList';
-import Disclaimer from '../Disclaimer/Disclaimer';
+import Conditions from '../Conditions/Conditions';
 import SiteData from '../SiteData/SiteData';
 
 const Home: React.FC = () => {
@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         <MainTitle />
         <HowToStart />
         <GamesList />
-        <Disclaimer />
+        <Conditions />
         <SiteData />
     </>
   );
