@@ -1,3 +1,15 @@
+
 .simplePageWrapper {
     padding: 0 24px;
+    ul {
+        padding: 0;
+    }
+    
+    li {
+        list-style: inside;
+        margin: 0 0 5px 10px;
+        p {
+            display: inline;
+        }
+    }
 }

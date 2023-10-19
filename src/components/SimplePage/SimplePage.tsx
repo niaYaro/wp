@@ -2,16 +2,16 @@ import React, { ReactNode } from 'react';
 import styles from '../SimplePage/SimplePage.module.scss'
 
 interface PageContent {
-    header: string,
-    text: string,
+    title: string,
+    update: string,
     children: ReactNode,
 }
 
-const SimplePage: React.FC<PageContent>  = ({ header, text, children }) => {
+const SimplePage: React.FC<PageContent>  = ({ title, update, children }) => {
   return (
     <div className={styles['simplePageWrapper']}>
-        <h2>{header}</h2>
-        <p>{text}</p>
+        <h2>{title}</h2>
+        <p>{`Last updated: `}{update}</p>
         {children}
     </div>
   );
